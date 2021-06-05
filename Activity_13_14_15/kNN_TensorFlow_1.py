@@ -106,7 +106,10 @@ def predict_class(xt, ct, dt, kt):
     print('-- Predicting the class membership')
 
     neg_one = tf.constant(-1.0, dtype=tf.float64)
-    distance = tf.reduce_sum(tf.abs(tf.subtract(xt, dt)), 1)
+    distance = tf.reduce_sum(
+        tf.abs(
+            tf.subtract(xt, dt)
+        ), 1)
 
     print(neg_one)
     print(distance)

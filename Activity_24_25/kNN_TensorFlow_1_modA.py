@@ -178,8 +178,8 @@ def main():
     print('General Information')
     print('=====================================')
     print('This program creates 2 clusters/classes with 100 data points each.')
-    print('The user provides and x,y and k value.')
-    print('The program predicts the class of the user provided point(x,y) with the kNN Algorithm where the user input k is the amount of neighbors that are looked at for the prediciton')
+    print('The user provides an (x,y) and k value.')
+    print('The program predicts the class of the user provided point(x,y) with the kNN Algorithm where the user input k is the amount of neighbors that are looked at for the prediction')
 
     # ------------------------------------------------------
     # -- Main script run actions
